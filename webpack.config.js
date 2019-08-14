@@ -53,6 +53,12 @@ function buildConfig(env, args){
 					test: /\.scss$/,
 					use: [
 						{
+							loader: "style-loader",
+							options: {
+								injectType: "singletonStyleTag"
+							}
+						},
+						{
 							loader: "css-loader",
 							options: {
 								modules: {
