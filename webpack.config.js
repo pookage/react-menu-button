@@ -75,7 +75,8 @@ function buildConfig(env, args){
 		},
 		resolve: {
 			alias: {
-				"SHARED": `${src}/shared`
+				"SHARED": `${src}/shared`,
+				"COMPONENTS": `${src}/components`
 			}
 		},
 		...modeOptions,
