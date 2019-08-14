@@ -1,7 +1,7 @@
 {
-  "name": "web-components-menu-button",
+  "name": "react-menu-button",
   "version": "0.1.0",
-  "description": "A menu-button component made with web-components",
+  "description": "A menu-button component made with react",
   "main": "index.js",
   "scripts": {
     "build-prod": "cp -r src/index.html dist && webpack --mode=production",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pookage/web-components-menu-button.git"
+    "url": "git+https://github.com/pookage/react-menu-button.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pookage/web-components-menu-button/issues"
+    "url": "https://github.com/pookage/react-menu-button/issues"
   },
-  "homepage": "https://github.com/pookage/web-components-menu-button#readme",
+  "homepage": "https://github.com/pookage/react-menu-button#readme",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
