@@ -10,7 +10,9 @@ export default class App extends Component {
 	render(){
 		return(
 			<div className={s.wrapper}>
-				<MenuButton />
+				<MenuButton>
+					Monkey Menu
+				</MenuButton>
 			</div>
 		);
 	}//render

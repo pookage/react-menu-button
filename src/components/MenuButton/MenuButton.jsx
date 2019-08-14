@@ -23,7 +23,13 @@ export default class MenuButton extends Component {
 
 	render(){
 
-		const { open } = this.state;
+		const { 
+			children: label = "Menu" // (string) text to show on button when 'closed'
+		} = this.props;
+		const { 
+			open // (boolean) whether the button is in open/closed state
+		} = this.state;
+
 		return(
 			<div 
 				className={`${s.wrapper} ${open ? s.active : s.inactive}`}
@@ -50,7 +56,7 @@ export default class MenuButton extends Component {
 						Close
 					</span>
 					<span className={`${s.label} ${s.open}`}>
-						Boy, you need a label.
+						{label}
 					</span>
 				</label>
 			</div>
