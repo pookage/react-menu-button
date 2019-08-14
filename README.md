@@ -1,24 +1,24 @@
-# Menu Button with Web Components
+# Menu Button with React
 
 ![Menu Button demo](https://raw.githubusercontent.com/pookage/web-components-menu-button/master/screenshots/demo__2.gif)
 
 A Menu Button component with open/closed state made with:
 
-- Web Components
+- React
 - CSS Modules
 - SCSS
 - Webpack
 
-Live demo [here](https://pookage.github.io/web-components-menu-button/dist/)
+Live demo [here](https://pookage.github.io/react-menu-button/dist/)
+
+>**This component was made to demonstrate translating from Web Components to React Components.**
 
 ## Usage
 
 ```
-<menu-button>
-	<span slot="label">
-		Menu
-	</span>
-</menu-button>
+<MenuButton>
+	Menu
+</MenuButton>
 ```
 
 ## Building
