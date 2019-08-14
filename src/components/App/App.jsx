@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import MenuButton from "COMPONENTS/MenuButton/";
-import "SHARED/global.scss";
-import "SHARED/reset.scss";
 import { s } from "./";
 
 
