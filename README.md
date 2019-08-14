@@ -11,7 +11,7 @@ A Menu Button component with open/closed state made with:
 
 Live demo [here](https://pookage.github.io/react-menu-button/dist/)
 
->**This component was made to demonstrate translating from Web Components to React Components.**
+>**NOTE: This component was made to demonstrate the process of translating from Web Components to React Components. Click [here](https://github.com/pookage/web-components-menu-button) to view the web-component version of this button.**
 
 ## Usage
 
